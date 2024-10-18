@@ -82,8 +82,7 @@ public:
             e = eil + directions[d][0];
             s = stulp + directions[d][1];
             while (board[e][s] == opponent) {
-                board[e][s] = player;  // Flip
-                cout << "Flipping (" << e + 1 << "," << s + 1 << ") from " << opponent << " to " << player << endl; // Debug output
+                board[e][s] = player;  // Flipas
                 e += directions[d][0];
                 s += directions[d][1];
             }
