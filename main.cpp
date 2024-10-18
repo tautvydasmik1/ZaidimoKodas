@@ -4,7 +4,6 @@
 #include <cstdlib>
 #include <ctime>
 #include <limits>
-#include <unistd.h>
 #define CLEAR_SCREEN "clear"
 using namespace std;
 void clearScreen();
