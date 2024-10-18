@@ -1,0 +1,1 @@
+Reversi žaidimo kodo failas.
